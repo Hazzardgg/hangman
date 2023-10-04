@@ -7,6 +7,6 @@ if (file_exists($autoloadPath)) {
     require_once($autoloadPath);
 }
 
-use function Hazzardgg\hangman\Controller\startGame;
+use Hazzardgg\hangman\Controller\Controller;
 
-startGame();
+Controller::startGame();

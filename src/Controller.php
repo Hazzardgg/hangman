@@ -2,9 +2,23 @@
 
 namespace Hazzardgg\hangman\Controller;
 
-use function cli\line;
+use Hazzardgg\hangman\View\View;
+use Hazzardgg\hangman\Model\Model;
+use function cli\prompt;
 
-function startGame()
+class Controller
 {
-    line("Виселица");
+    static function startGame()
+    {
+        $hidden_word = Model::genWord();
+        $temp_word = "_ _ _ _ _ _";
+        View::drawWord($temp_word);
+        View::drawHangman(0);
+        // $end = false;
+        // while (!$win)
+        // {
+        //     $letter = prompt("Введите букву: ");
+
+        // }
+    }
 }

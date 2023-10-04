@@ -1,12 +1,13 @@
 {
-    "name": "kirya/hangman",
+    "name": "hazzardgg/hangman",
     "autoload": {
         "psr-4": {
             "Hazzardgg\\hangman\\": "src/"
         },
         "files": [
             "src/Controller.php",
-            "src/View.php"
+            "src/View.php",
+            "src/Model.php"
         ]
     },
     "authors": [
@@ -20,5 +21,8 @@
     ],
     "require": {
         "wp-cli/php-cli-tools": "^0.11.21"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.7.2"
     }
 }
