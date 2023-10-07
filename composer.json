@@ -1,7 +1,7 @@
 {
     "name": "hazzardgg/hangman",
     "license": "MIT",
-    "version": "2.0.2",
+    "version": "2.0.4",
     "autoload": {
         "psr-4": {
             "Hazzardgg\\hangman\\": "src/"
