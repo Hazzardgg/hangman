@@ -8,7 +8,7 @@ class Model
 {
     static function genWord()
     {
-        return "MAKAKA";
+        return "MONKEY";
     }
 
     static function checkLetter($letter, $hidden_word, &$temp_word, &$errors, &$found_letters)
